@@ -10,6 +10,7 @@
   --dark-color: #000;
 }
 
+
 body {
   display: flex;
   align-items: flex-end;
@@ -32,19 +33,14 @@ body {
   filter: blur(0.1vmin);
 }
 
+
+
 .happy-woman-day {
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   position: fixed;
   top: 10px;
 }
-
-@media only screen and (max-width: 600px) {
-  .happy-woman-day {
-    font-size: 12px; /* Kích thước font nhỏ hơn cho màn hình điện thoại */
-  }
-}
-
 
 .flowers {
   position: relative;
